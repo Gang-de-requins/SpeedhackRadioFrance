@@ -37,6 +37,49 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
+    data: {
+        display: 'flex',
+        flexDirection: 'row',
+    },
+    titleData: {
+        fontSize: 20,
+        fontWeight: 'bold',
+        position: 'relative',
+        top: 30,
+        left: 30
+    },
+    contentData: {
+        position: 'relative',
+        top: 40,
+        left: 15,
+    },
+    card: {
+        backgroundColor: 'white',
+        borderRadius: 10,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        elevation: 5,
+        margin: 10,
+        width: 200,
+        height: 150,
+      },
+      cardImage: {
+        width: '100%',
+        height: '85%',
+        objectFit: 'contain',
+      },
+      cardContent: {
+        padding: 10,
+      },
+      cardTitle: {
+        fontSize: 18,
+        fontWeight: 'bold',
+      },
+      cardDescription: {
+        fontSize: 14,
+      },
 });
 
 export default styles;
